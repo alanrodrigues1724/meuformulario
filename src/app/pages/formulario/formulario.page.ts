@@ -60,8 +60,8 @@ export class FormularioPage implements OnInit {
   
   async enviarEmail(local) {
     let email = {
-      to: 'alanskt821@gmail.com',
-      subject: 'Dados dos formulários',
+      to: 'desafiio@prolins.com.br',
+      subject: 'Dados do formulário',
       body: 'Nome: ' + this.formulario.nome +"\n"+
       ' Telefone: ' + this.formulario.telefone +"\n"+
       ' E-mail:' + this.formulario.email+"\n"+
