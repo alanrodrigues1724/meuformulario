@@ -1,0 +1,49 @@
+.cor {
+  --background: linear-gradient(
+    197deg,
+    rgb(247, 242, 242) 0%,
+    rgb(252, 252, 252) 13.5%,
+    rgb(26, 112, 182) 33.33%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important;
+}
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 75%;
+  margin: 0 auto;
+  z-index: 2;
+
+  &.top {
+    top: 12%;
+  }
+
+  &.bottom {
+    bottom: 20%;
+
+    span {
+      color: #fff;
+    }
+  }
+}
+
+ion-slides {
+  height: 100%;
+
+  .slide-inner {
+    width: 75%;
+    color: #fff;
+    background-color: #0072bc;
+    border-radius: 10px;
+
+    ion-item {
+      --background: rgba(255, 255, 255, 0.2);
+      --border-radius: 10px;
+
+      ion-input {
+        --color: #fff;
+      }
+    }
+  }
+}
